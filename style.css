@@ -1,0 +1,139 @@
+* {
+    margin : 0;
+    padding : 0;
+}
+
+.dotted-border {
+    border: 1px dotted;
+}
+
+.name-header {
+    margin: 5px;
+    color: rebeccapurple;
+}
+
+.intro-paragraph {
+    margin: 0;
+}
+
+.intro-bold {
+    font-weight: bold;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.left-column {
+    width: 60%;
+}
+
+.right-column {
+    width: 40%;
+}
+
+.experience-header {
+    margin: 5px;
+    color: chocolate;
+}
+
+.experience-text {
+    margin: 0;
+}
+
+.job-title {
+    color: darkslategrey;
+}
+
+/* About Section */
+.about-header {
+    margin: 5px;
+    color: darkolivegreen;
+}
+
+.about-text {
+    margin: 0;
+}
+
+.divider {
+    border: none;
+    height: 1px;
+    background-color: #000;
+    margin: 10px 0;
+}
+
+/* Contacts Section */
+.contacts-header {
+    margin: 5px;
+    color: indianred;
+}
+
+.contacts-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li{
+    margin : 5px;
+}
+
+p{
+    padding: 5px;
+}
+
+
+.education-header {
+    margin: 5px;
+    color: midnightblue;
+}
+
+.education-text {
+    margin: 5px;
+    line-height: 1.5;
+}
+
+.degree-title {
+    color: red;
+}
+
+.institution {
+    font-style: italic;
+}
+
+.skills-header {
+    margin: 5px;
+    color: maroon;
+}
+
+.skills-table {
+    margin: 5px;
+    border: 1px solid;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.skills-table td {
+    padding: 8px;
+    border: 1px solid;
+}
+
+.awards-header {
+    margin: 5px;
+    color: sienna;
+}
+
+.awards-text {
+    margin: 5px;
+    line-height: 1.5;
+}
+
+.award-title {
+    color: coral;
+}
+
+.nav-button {
+    padding: 8px 16px;
+    margin-top: 10px;
+    cursor: pointer;
+}
