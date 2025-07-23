@@ -71,6 +71,7 @@ li{
 
 p{
     padding: 5px;
+    font-size: 18px;
 }
 
 
@@ -134,9 +135,4 @@ p{
 
     flex-direction: column;
     justify-content: space-evenly;
-}
-
-.left-section 
-{
-
 }
