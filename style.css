@@ -22,14 +22,7 @@
 
 .flex-container {
     display: flex;
-}
-
-.left-column {
-    width: 60%;
-}
-
-.right-column {
-    width: 40%;
+    
 }
 
 .experience-header {
@@ -45,7 +38,6 @@
     color: darkslategrey;
 }
 
-/* About Section */
 .about-header {
     margin: 5px;
     color: darkolivegreen;
@@ -62,7 +54,6 @@
     margin: 10px 0;
 }
 
-/* Contacts Section */
 .contacts-header {
     margin: 5px;
     color: indianred;
@@ -107,7 +98,7 @@ p{
 }
 
 .skills-table {
-    margin: 5px;
+
     border: 1px solid;
     border-collapse: collapse;
     width: 100%;
@@ -136,4 +127,16 @@ p{
     padding: 8px 16px;
     margin-top: 10px;
     cursor: pointer;
+}
+
+.right-section
+{
+
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.left-section 
+{
+
 }
